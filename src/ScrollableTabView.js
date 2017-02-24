@@ -1,11 +1,6 @@
 
 import React, { PropTypes } from 'react';
-import { connect } from 'react-redux';
-// import Tabs from 'material-ui/Tabs/Tabs';
-// import Tab from 'material-ui/Tabs/Tab';
 import Tabs from './Tabs';
-// import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
-// import getMuiTheme from 'material-ui/styles/getMuiTheme';
 import SwipeableViews from 'react-swipeable-views';
 
 const styles = {
@@ -37,7 +32,7 @@ const styles = {
   },
 };
 
-class DemoTabs extends React.Component {
+class ScrollableTabView extends React.Component {
   state = {
     index: 0,
     activeItem: 12,
@@ -117,15 +112,8 @@ export class SwiperTest extends React.Component { // eslint-disable-line react/p
   }
 }
 
-SwiperTest.propTypes = {
+ScrollableTabView.propTypes = {
   dispatch: PropTypes.func.isRequired,
 };
 
-
-function mapDispatchToProps(dispatch) {
-  return {
-    dispatch,
-  };
-}
-
-export default connect(null, mapDispatchToProps)(SwiperTest);
+export default ScrollableTabView;
