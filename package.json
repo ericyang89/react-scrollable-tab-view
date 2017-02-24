@@ -1,0 +1,29 @@
+{
+  "name": "react-scrollable-tab-view",
+  "version": "0.1.0",
+  "description": "inspired by react-native-scrollable-tab-view",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ericyang89/react-scrollable-tab-view.git"
+  },
+  "keywords": [
+    "react",
+    "tabs",
+    "scrollable",
+    "view"
+  ],
+  "author": "eric yang <chuanzhifeng@gmail.com>",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/ericyang89/react-scrollable-tab-view/issues"
+  },
+  "homepage": "https://github.com/ericyang89/react-scrollable-tab-view#readme",
+  "dependencies": {
+    "react": "^15.4.2",
+    "react-swipeable-views": "^0.10.8"
+  }
+}
